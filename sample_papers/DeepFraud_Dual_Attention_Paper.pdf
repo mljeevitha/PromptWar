@@ -1,0 +1,61 @@
+%PDF-1.4
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [3 0 R] /Count 1 >>
+endobj
+3 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Contents 4 0 R /Resources << /Font << /F1 5 0 R >> >> >>
+endobj
+4 0 obj
+<< /Length 1848 >>
+stream
+BT
+/F1 10 Tf
+1 0 0 1 50 750 Tm (DUAL-ATTENTION AUTOENCODER FOR REAL-TIME TRANSACTION FRAUD DETECTION) Tj
+1 0 0 1 50 734 Tm (Dr. Elena Rostova, Zurich Institute of Technology 2026) Tj
+1 0 0 1 50 718 Tm () Tj
+1 0 0 1 50 702 Tm (ABSTRACT:) Tj
+1 0 0 1 50 686 Tm (Payment fraud detection systems must balance high true-positive detection) Tj
+1 0 0 1 50 670 Tm (against catastrophic false-positive customer disruptions. Extreme class imbalance) Tj
+1 0 0 1 50 654 Tm (severely undermines conventional supervised classifiers. In this paper, we propose) Tj
+1 0 0 1 50 638 Tm (Dual-Attention Autoencoder DA-AE, an unsupervised reconstruction and latent attention mode) Tj
+1 0 0 1 50 622 Tm () Tj
+1 0 0 1 50 606 Tm (1. RESEARCH PROBLEM:) Tj
+1 0 0 1 50 590 Tm (Severe class imbalance <0.2% fraud and adversarial feature shift in credit transaction str) Tj
+1 0 0 1 50 574 Tm () Tj
+1 0 0 1 50 558 Tm (2. OBJECTIVE:) Tj
+1 0 0 1 50 542 Tm (Construct an unsupervised dual-attention autoencoder that reconstructs normal transaction) Tj
+1 0 0 1 50 526 Tm (manifolds and flags anomalous reconstruction errors in real-time <15ms.) Tj
+1 0 0 1 50 510 Tm () Tj
+1 0 0 1 50 494 Tm (3. DATASET:) Tj
+1 0 0 1 50 478 Tm (Credit Card Fraud benchmark comprising 284,807 transactions. Features: PCA latent vectors ) Tj
+1 0 0 1 50 462 Tm (transaction Amount, and timestamp.) Tj
+1 0 0 1 50 446 Tm () Tj
+1 0 0 1 50 430 Tm (4. METHODOLOGY & ARCHITECTURE:) Tj
+1 0 0 1 50 414 Tm (- RobustScaler applied to Amount and Time to mitigate outliers.) Tj
+1 0 0 1 50 398 Tm (- 4-layer Encoder 29 -> 64 -> 32 -> 16 with multi-head latent attention weighting.) Tj
+1 0 0 1 50 382 Tm (- Symmetric Decoder and Mean Squared Reconstruction Error thresholding.) Tj
+1 0 0 1 50 366 Tm () Tj
+1 0 0 1 50 350 Tm (5. EVALUATION:) Tj
+1 0 0 1 50 334 Tm (AUPRC: 0.884, F1-Score: 0.842, p99 Latency: <12ms.) Tj
+ET
+endstream
+endobj
+5 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>
+endobj
+xref
+0 6
+0000000000 65535 f 
+0000000009 00000 n 
+0000000058 00000 n 
+0000000115 00000 n 
+0000000244 00000 n 
+00000002148 00000 n 
+trailer
+<< /Size 6 /Root 1 0 R >>
+startxref
+2248
+%%EOF

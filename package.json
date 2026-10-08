@@ -1,0 +1,25 @@
+{
+  "name": "paper2prototype-ai",
+  "version": "1.0.0",
+  "description": "Autonomous Research-to-Prototype Agent - From PDF Research Paper to Tested Working Prototype",
+  "scripts": {
+    "install:all": "npm install && cd server && npm install && cd ../client && npm install",
+    "dev:server": "cd server && npm run dev",
+    "dev:client": "cd client && npm run dev",
+    "dev": "concurrently -n \"SERVER,CLIENT\" -c \"blue.bold,green.bold\" \"npm run dev:server\" \"npm run dev:client\"",
+    "build": "cd client && npm run build && cd ../server && npm run build"
+  },
+  "devDependencies": {
+    "concurrently": "^9.1.2"
+  },
+  "keywords": [
+    "autonomous-agent",
+    "research-paper",
+    "code-generation",
+    "self-debugging",
+    "hackathon",
+    "gemini"
+  ],
+  "author": "PromptWars 2026 Team",
+  "license": "MIT"
+}
