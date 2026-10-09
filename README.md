@@ -1,10 +1,7 @@
 # Paper2Prototype AI 🚀
 ### Autonomous Research-to-Prototype Agent — From Scientific Paper to Tested Working Prototype
 
-> **PROMPT WARS 2026 Hackathon Project**  
 > **Theme:** AI Personal Assistant & Autonomous Agents  
-> **Built by:** Autonomous Agent Engineering Team
-
 ---
 
 ## 📌 Executive Summary
